@@ -1,0 +1,94 @@
+@font-face {
+  font-family: "lilita";
+  src: url('../fonts/lilita.ttf') format('truetype');
+  font-size: 30px;
+}
+
+.fundo {
+  background-color: rgb(255, 249, 241);
+}
+
+.tabela {
+  justify-content: center;
+  display: flex;
+}
+
+.titulo {
+  font-family: 'lilita';
+  font-weight: lighter;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 90px;
+}
+.tabelaPeriodica tr td {
+  padding: 10px;
+  text-align: center;
+  font-family: 'lilita';
+}
+
+/*
+
+eu tentei, mas não funcionou dessa forma...
+
+
+.tabelaPeriodica td:nth-child(2){
+  background-color:#d280ff; 
+}
+
+.tabelaPeriodica td:first-child {
+  background-color: #85c8ff;
+}
+
+.tabelaPeriodica td:nth-child(1) tr:nth-child(1) {
+  background-color: #b121ff;
+}
+.tabelaPeriodica td:last-child {
+  background-color:#008cff;
+}
+
+.tabelaPeriodica tr:nth-child(n+4):nth-child(-n+7) {
+  background-color: #ffeb85;
+}
+
+*/
+
+.magenta {
+  background-color: #ff4079 ;
+}
+
+.rosaClaro {
+  background-color: #ffb0c8 ;
+}
+
+.rosaRoxo {
+  background-color: #ff2ee0;
+}
+
+.roxo {
+  background-color:#a705ff ;
+}
+
+.lilas {
+  background-color: #d992ff;
+}
+
+.azul {
+  background-color:#1c51ff ;
+}
+
+.azulClaro {
+  background-color: #85c8ff;
+}
+
+.amarelo {
+  background-color: #ffeb85;
+}
+
+/* #ff4079 Magenta
+#ff8caf Rosa claro
+#ff2ee0 Rosa roxo
+#b121ff Roxo
+#d280ff Lilás
+#008cff Azul
+#85c8ff Azul claro
+#ffeb85 Maielo *\
